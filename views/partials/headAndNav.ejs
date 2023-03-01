@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my homepage</title>
+    <link rel="stylesheet" href="/styles/main.css">
+    <% if(pageName === undefined) {%>
+    <title>Musicians Holding Slugs</title>
+    <%} else { %>
+    <title>Musicians Holding Slugs | <%= pageName %></title}
+}
+</head>
+<body>
+    <nav>
+        <a href="https://localhost:4000/">Home</a>
+        <a href="https://localhost:4000/Musicians">Musicians</a>
+        <a href="https://localhost:4000/Songs">Songs</a>
+    </nav>
